@@ -44,8 +44,8 @@ You will need the following technologies available to try it out:
 ```open index.html file from allure-report folder```
 
 
-![](https://d.radikal.ru/d25/2104/1f/19918842b925.png) 
+![](https://d.radikal.ru/d06/2104/de/cf4199df7785.png) 
 
-![](https://d.radikal.ru/d15/2104/a0/400e63541d86.png)
+![]()
 
-![](https://a.radikal.ru/a40/2104/3e/3824f7a4009e.png)
+![]()
