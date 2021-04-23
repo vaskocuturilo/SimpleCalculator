@@ -44,28 +44,28 @@
                 android:layout_height="fill_parent"
                 android:text="AC"
                 android:onClick="clearClick"
-                android:id="@+id/button9" />
+                android:id="@+id/button_all_clear" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:onClick="negateNumber"
                 android:text="+/-"
-                android:id="@+id/button10" />
+                android:id="@+id/negate_button" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="/"
                 android:onClick="buttonClick"
-                android:id="@+id/button12" />
+                android:id="@+id/button_div" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="*"
                 android:onClick="buttonClick"
-                android:id="@+id/button8" />
+                android:id="@+id/button_multi" />
         </LinearLayout>
 
         <LinearLayout
@@ -78,27 +78,27 @@
                 android:layout_height="fill_parent"
                 android:text="7"
                 android:onClick="numberClick"
-                android:id="@+id/sevenButton" />
+                android:id="@+id/button_7" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="8"
                 android:onClick="numberClick"
-                android:id="@+id/eightButton" />
+                android:id="@+id/button_8" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="9"
                 android:onClick="numberClick"
-                android:id="@+id/nineButton" />
+                android:id="@+id/button_9" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="-"
-                android:id="@+id/subtractButton"
+                android:id="@+id/button_sub"
                 android:onClick="buttonClick"
                 android:nestedScrollingEnabled="false" />
 
@@ -114,28 +114,28 @@
                 android:layout_height="fill_parent"
                 android:text="4"
                 android:onClick="numberClick"
-                android:id="@+id/fourButton" />
+                android:id="@+id/button_4" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="5"
                 android:onClick="numberClick"
-                android:id="@+id/fiveButton" />
+                android:id="@+id/button_5" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="6"
                 android:onClick="numberClick"
-                android:id="@+id/sixButton" />
+                android:id="@+id/button_6" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:onClick="buttonClick"
                 android:text="+"
-                android:id="@+id/button16" />
+                android:id="@+id/button_add" />
 
         </LinearLayout>
 
@@ -149,28 +149,28 @@
                 android:layout_height="fill_parent"
                 android:text="1"
                 android:onClick="numberClick"
-                android:id="@+id/oneButton" />
+                android:id="@+id/button_1" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="2"
                 android:onClick="numberClick"
-                android:id="@+id/twoButton" />
+                android:id="@+id/button_2" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="3"
                 android:onClick="numberClick"
-                android:id="@+id/threeButton" />
+                android:id="@+id/button_3" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="="
                 android:onClick="equalsClick"
-                android:id="@+id/button20" />
+                android:id="@+id/button_calc" />
 
         </LinearLayout>
 
@@ -185,7 +185,7 @@
                 android:layout_height="fill_parent"
                 android:text="0"
                 android:onClick="numberClick"
-                android:id="@+id/zeroButton"
+                android:id="@+id/button_0"
                 android:layout_weight="0.32" />
 
         </LinearLayout>

@@ -20,7 +20,6 @@ abstract class BaseClass() {
 
     lateinit var device: UiDevice
 
-
     @Before
     fun setUp() {
         device = startDevice()
