@@ -58,7 +58,7 @@
                 android:layout_height="match_parent"
                 android:text="/"
                 android:onClick="buttonClick"
-                android:id="@+id/button_div" />
+                android:id="@+id/button_division" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -98,7 +98,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="-"
-                android:id="@+id/button_sub"
+                android:id="@+id/button_subtraction"
                 android:onClick="buttonClick"
                 android:nestedScrollingEnabled="false" />
 

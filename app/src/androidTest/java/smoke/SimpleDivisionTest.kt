@@ -5,7 +5,7 @@ import junit.framework.Assert.assertEquals
 import org.junit.Test
 import screens.CalculatorPage
 
-class SimpleAdditionalTest: BaseClass() {
+class SimpleDivisionTest : BaseClass() {
 
     private val randomNumber: Int get() = (Math.random() * 10).toInt()
 
@@ -13,11 +13,11 @@ class SimpleAdditionalTest: BaseClass() {
     private val secondNumber = randomNumber
 
     @Test
-    fun simpleAdditionalTest() {
+    fun simpleDivisionTest() {
         val calculate = CalculatorPage(on = device)
             .enterNumber(firstNumber)
-            .operationAdd(secondNumber)
+            .operationDivision(secondNumber)
 
-        assertEquals(firstNumber + secondNumber, calculate.numberOnScreen)
+        assertEquals(firstNumber / secondNumber, calculate.numberOnScreen)
     }
 }
