@@ -22,10 +22,10 @@ abstract class BaseClass() {
 
     @Before
     fun setUp() {
-        device = startDevice()
+        device = startEmulator()
     }
 
-    private fun startDevice(): UiDevice {
+    private fun startEmulator(): UiDevice {
         val device = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation())
 
         val pkg = InstrumentationRegistry.getTargetContext().packageName
