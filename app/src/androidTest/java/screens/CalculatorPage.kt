@@ -8,15 +8,15 @@ import base.BaseScreen
 class CalculatorPage(on: UiDevice) : BaseScreen(on) {
 
     //operation button
-    private val addButton = By.res("$id/button_add")
-    private val multiButton = By.res("$id/button_multi")
-    private val divisionButton = By.res("$id/button_division")
-    private val subtractionButton = By.res("$id/button_subtraction")
-    private val calcButton = By.res("$id/button_calc")
-    private val textView = By.res("$id/textView")
+    private val addButton = By.res("$element/button_add")
+    private val multiButton = By.res("$element/button_multi")
+    private val divisionButton = By.res("$element/button_division")
+    private val subtractionButton = By.res("$element/button_subtraction")
+    private val calcButton = By.res("$element/button_calc")
+    private val textView = By.res("$element/textView")
 
     //patterns
-    private val numberPattern = "$id/button_%s"
+    private val numberPattern = "$element/button_%s"
     private val delimiterRegex = Regex("[^0-9]")
 
     val numberOnScreen: Int
